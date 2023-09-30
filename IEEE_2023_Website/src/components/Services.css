@@ -1,0 +1,165 @@
+.services_upper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 30px;
+
+}
+
+.svgicon{
+    height: 30px;
+}
+
+
+.services{
+    padding-top: 120px;
+    /* padding-left: 50px; */
+    padding-bottom: 60px;
+    background: #FAFBFC;
+}
+.card_service_head{
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.02em;
+
+color: #000000;
+width: 220px;
+font-family: 'Poppins', sans-serif;
+
+
+}
+.card_service{
+    width: 300px;
+    text-align: left;
+    padding: 40px;
+    background: #FFFFFF;
+box-shadow: 4px 4px 16px rgba(21, 46, 171, 0.07);
+border-radius: 24px;
+margin-top: 60px;
+
+
+}
+.card_service_body{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #585767;
+    font-family: 'Poppins', sans-serif;
+
+}
+.card_service_btn{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    
+margin-top: 10px;
+    letter-spacing: 0.02em;
+    
+    color: #617BFF;
+    
+    font-family: 'Poppins', sans-serif;
+
+}
+.card_service_wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 70px;
+}
+
+@media screen and (max-width:830px) {
+    .services_upper_left_elea{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #1b72f7;
+        font-family: 'Poppins', sans-serif;
+        
+        }
+        .services_upper_left_eleb{
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 72px;
+            letter-spacing: 0.02em;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+           
+        
+        }
+        .services_upper_right{
+            font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #585767;
+        width: 510px;
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Poppins', sans-serif;
+        
+        }
+        .services_upper_left{
+            width: 520px;
+            text-align: center;
+        }
+}
+@media screen and (min-width:830px) {
+    .services_upper_left_elea{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #1b72f7;
+        font-family: 'Poppins', sans-serif;
+        
+        }
+        .services_upper_left_eleb{
+            font-weight: 600;
+            font-size: 56px;
+            line-height: 72px;
+            letter-spacing: 0.02em;
+            font-family: 'Poppins', sans-serif;
+        
+        }
+        .services_upper_right{
+            font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: #585767;
+        width: 510px;
+        text-align: left;
+        font-family: 'Poppins', sans-serif;
+        
+        }
+        .services_upper_left{
+            width: 520px;
+            text-align: left;
+        }
+}
+.services_upper_right{
+    margin-top: 50px;
+}
+.card_service_body{
+    line-height: 24px;
+    margin-top: 14px;
+    margin-bottom: 18px;
+}
+.card_service_head{
+    font-size: 20px;
+}
+.card_service_head{
+    margin-top: 20px;
+}

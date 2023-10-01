@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 // import Services from "./Services";
 import Chapters from "./Chapters";
+import PastEvents from "./PastEvents";
 // import Awards from "./Awards";
 
 export {
@@ -24,6 +25,7 @@ export {
   Testimonials,
   Hero,
   // Services
-  Chapters
+  Chapters,
+  PastEvents,
   // Awards
 };
